@@ -5,6 +5,9 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import PlaySoundButton from '../components/PlaySoundButton';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import DownloadCVButton from './DownloadCVButton';
+import ThankYou from './ThankYou';
 
 
 const HeroSection = () => {
@@ -42,6 +45,7 @@ const HeroSection = () => {
           Hi there, passionate professional with a knack for bringing ideas to life - explore my portfolio to see my work!
           </p>
           <div>
+          <Router>
             <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
@@ -49,14 +53,17 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="#/DownloadCVButton"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+              <DownloadCVButton />
               </span>
             </Link>
+          
+            </Router>
           </div>
+          
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
