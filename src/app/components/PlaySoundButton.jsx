@@ -10,7 +10,7 @@ const PlaySoundButton = () => {
 
   return (
     <button id="soundBtn" className="bg-transparent p-0 top-1 right-10 w-6 h-6" onClick={playSound}>
-      <Image src="/images/comment-regular.png" alt="sound" width={24} height={24} />
+      <Image src="/images/comment-regular.png" alt="sound" width={50} height={50} />
     </button>
   );
 };
