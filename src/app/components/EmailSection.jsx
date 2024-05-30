@@ -5,7 +5,7 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import InstagramIcon from "../../../public/instagram.svg";
 import BehanceIcon from "../../../public/square-behance.svg"; 
 import XIcon from "../../../public/square-x-twitter.svg";
-import WhatsappIcon from "../../../public/square-whatsapp.svg"; 
+// import WhatsappIcon from "../../../public/square-whatsapp.svg"; 
 import Link from "next/link";
 import Image from "next/image";
 import fiverr from "../../../public/fiverr_icon.svg";
@@ -76,9 +76,9 @@ const EmailSection = () => {
               <Link href="https://www.behance.net/aksharpatel24">
                 <Image src={BehanceIcon} alt="Behance Icon" className="w-6 h-6" />
               </Link>
-              <Link href="https://wa.me/+919726778445">
+              {/* <Link href="https://wa.me/+919726778445">
                 <Image src={WhatsappIcon} alt="Whatsapp Icon" className="w-6 h-6" />
-              </Link>
+              </Link> */}
               <Link href="https://x.com/Akshar_patel_13">
                 <Image src={XIcon} alt="X Icon" className="w-6 h-6" />
               </Link>

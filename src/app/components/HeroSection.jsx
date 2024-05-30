@@ -7,7 +7,7 @@ import Link from "next/link";
 import PlaySoundButton from '../components/PlaySoundButton';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import DownloadCVButton from './DownloadCVButton';
-import ThankYou from './ThankYou';
+import WhatsappIcon from "../../../public/square-whatsapp.svg"; 
 
 
 const HeroSection = () => {
@@ -45,7 +45,7 @@ const HeroSection = () => {
           Hi there, passionate professional with a knack for bringing ideas to life - explore my portfolio to see my work!
           </p>
           <div>
-          <Router>
+          <Router >
             <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
@@ -60,7 +60,14 @@ const HeroSection = () => {
               <DownloadCVButton />
               </span>
             </Link>
-          
+
+            <Link
+              href="https://wa.me/+919726778445"
+              className="px-7 inline-block ml-5 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            >
+             WhatsApp
+            </Link>
+
             </Router>
           </div>
           
