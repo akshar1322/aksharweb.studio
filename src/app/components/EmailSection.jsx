@@ -8,6 +8,9 @@ import XIcon from "../../../public/square-x-twitter.svg";
 import WhatsappIcon from "../../../public/square-whatsapp.svg"; 
 import Link from "next/link";
 import Image from "next/image";
+import fiverr from "../../../public/fiverr_icon.svg";
+import dribbble from "../../../public/dribbble logo_icon.svg";
+
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -78,6 +81,12 @@ const EmailSection = () => {
               </Link>
               <Link href="https://x.com/Akshar_patel_13">
                 <Image src={XIcon} alt="X Icon" className="w-6 h-6" />
+              </Link>
+              <Link href="https://x.com/Akshar_patel_13">
+                <Image src={fiverr} alt="X Icon" className="w-6 h-6" />
+              </Link>
+              <Link href="https://dribbble.com/Akshar_09">
+                <Image src={dribbble} alt="X Icon" className="w-6 h-6" />
               </Link>
             </div>
         </div>
