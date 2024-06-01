@@ -92,7 +92,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
+          name="Web"  // tame mouse move na karo mara ma thi access remove thai jaay che
           isSelected={tag === "Web"}
         />
         <ProjectTag

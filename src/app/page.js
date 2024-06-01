@@ -16,10 +16,14 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
-        <EmailSection />
+        <EmailSection /> 
         
       </div>
       <Footer />
     </main>
   );
 }
+
+
+// aiya chhe error
+// haa  pahala thai gie te but aje karu 6u to nahi tate amd site ma logo add kayo bus 
