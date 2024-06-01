@@ -63,6 +63,7 @@ const HeroSection = () => {
 
             <Link
               href="https://wa.me/+919726778445"
+              target="_blank"
               className="px-7 inline-block ml-5 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
              WhatsApp
